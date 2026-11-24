@@ -1,0 +1,10 @@
+{
+  "name": "NEON//RELAY",
+  "short_name": "NEON RELAY",
+  "description": "Mobile-first neon survival arcade",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#070914",
+  "theme_color": "#070914",
+  "orientation": "any"
+}
