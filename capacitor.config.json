@@ -1,0 +1,8 @@
+{
+  "appId": "com.xradiuzz.neonrelay",
+  "appName": "NEON RELAY",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#070914"
+  }
+}
