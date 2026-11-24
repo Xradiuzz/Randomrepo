@@ -37,6 +37,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Remove stale TypeScript config
+        run: rm -f capacitor.config.ts
+
+      - name: Verify Capacitor config
+        run: test -f capacitor.config.json && test ! -f capacitor.config.ts
+
       - name: Generate Android project
         run: npx cap add android
 
